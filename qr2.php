@@ -53,8 +53,9 @@
         document.getElementById('result').innerHTML = `
         <h2>Success!</h2>
         <p><a href="${result}">${result}</a></p>
-        <br>
-        <p>${result}<p>
+       
+      
+       
         `;
         // Prints result as a link inside result element
 
@@ -63,6 +64,8 @@
 
         document.getElementById('reader').remove();
         // Removes reader element from DOM since no longer needed
+
+        location.href="http://localhost/form.php?patente="+result;
     
     }
 
