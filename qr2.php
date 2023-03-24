@@ -65,7 +65,7 @@
         document.getElementById('reader').remove();
         // Removes reader element from DOM since no longer needed
 
-        location.href="http://localhost/form.php?patente="+result;
+        location.href="https://mas-tag.wit.la/qr/form.php?patente="+result;
     
     }
 
